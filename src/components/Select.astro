@@ -1,0 +1,16 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+import clsx from "clsx";
+
+type Props = HTMLAttributes<"select">;
+
+const { class: className, ...attrs } = Astro.props;
+---
+
+<select
+  {...attrs}
+  class={clsx("block w-full bg-neutral-1 text-neutral-12 focus:border-primary-9 rounded-xl focus:ring-primary-9", className)}
+>
+  <slot />
+</select>

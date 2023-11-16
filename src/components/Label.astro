@@ -1,0 +1,13 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+import clsx from "clsx";
+
+type Props = HTMLAttributes<"label">;
+
+const { class: className, ...attrs } = Astro.props;
+---
+
+<label {...attrs} class={clsx("text-neutral-11 text-base font-medium", className)}>
+  <slot />
+</label>

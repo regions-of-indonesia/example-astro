@@ -1,6 +1,6 @@
 # example-astro
 
-Example Astro Tailwind Daisy UI
+Example Astro Tailwind
 
 <a title="github" href="https://github.com/regions-of-indonesia/example-astro">
   <picture>
