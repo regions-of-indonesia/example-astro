@@ -1,3 +1,7 @@
+<p>
+  <img width="100%" src="https://hiiiits.deno.dev/hit/regions-of-indonesia/example-astro" alt="hiiiits" title="hiiiits" />
+</p>
+
 # example-astro
 
 Example Astro Tailwind
