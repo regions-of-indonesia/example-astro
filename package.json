@@ -12,16 +12,16 @@
   "dependencies": {
     "@regions-of-indonesia/client": "^5.2.2",
     "@regions-of-indonesia/utils": "^5.1.2",
-    "astro": "^4.0.3",
-    "clsx": "^2.0.0"
+    "astro": "^4.1.2",
+    "clsx": "^2.1.0"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^5.0.3",
-    "@coloradix/tailwindcss": "^2.3.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "@coloradix/tailwindcss": "^2.3.1",
     "@regions-of-indonesia/types": "^5.1.2",
     "@tailwindcss/forms": "^0.5.7",
     "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.32",
-    "tailwindcss": "^3.3.6"
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
   }
 }
